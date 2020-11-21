@@ -4,7 +4,7 @@
   "description": "test-task",
   "main": "index.html",
   "private": true,
-  "homepage": "https://eyhenij.github.io/Carousel-component/",
+  "homepage": "https://eyhenij.github.io/Carousel-component",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.1",
