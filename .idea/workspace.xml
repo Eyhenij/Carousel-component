@@ -10,11 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d32c4022-b57e-458b-a516-915939cc4d9a" name="Default Changelist" comment="20.11.2020-001 start Project">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="d32c4022-b57e-458b-a516-915939cc4d9a" name="Default Changelist" comment="21.11.2020-001 some refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/carousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carousel.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../IT-kamasutra/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IT-kamasutra/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +19,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="repository" />
+    </option>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -67,6 +68,16 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -77,6 +88,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605862186010</updated>
       <workItem from="1605862187243" duration="26055000" />
-      <workItem from="1605940025425" duration="1707000" />
+      <workItem from="1605940025425" duration="2450000" />
     </task>
     <task id="LOCAL-00001" summary="20.11.2020-001 start Project">
       <created>1605863969387</created>
@@ -103,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605866826169</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="21.11.2020-001 some refactoring">
+      <created>1605941891650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605941891650</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +146,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="20.11.2020-001 start Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.11.2020-001 start Project" />
+    <MESSAGE value="21.11.2020-001 some refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="21.11.2020-001 some refactoring" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1605867152465">
@@ -150,9 +174,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="754" y="151" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605867101495" />
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1605866906998">
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1605941906618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605866906998" />
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605941906618" />
   </component>
 </project>
