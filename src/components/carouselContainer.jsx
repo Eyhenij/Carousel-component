@@ -28,56 +28,33 @@ class CarouselContainer extends React.Component {
             moveNext: true
         };
 
-        // this.nextSlideHandler = this.nextSlideHandler.bind(this);
+        this.nextSlideHandler = this.nextSlideHandler.bind(this);
     }
 
-    // _nextSlide() {
-    //     if (this.state.currentImageIndex < this.state.images.length - 1) {
-    //         this.state.currentImageIndex = this.state.currentImageIndex + 1;
-    //         this.setState({movePrev: true});
-    //     } else {
-    //         if (this.state.currentImageIndex < this.state.images.length) {
-    //             this.setState({moveNext: false});
-    //         }
-    //     }
-    // }
-    //
-    // _prevSlide() {
-    //     if (this.state.currentImageIndex > 0) {
-    //         this.state.currentImageIndex = this.state.currentImageIndex - 1;
-    //         this.setState({moveNext: true});
-    //     } else {
-    //         if (this.state.currentImageIndex <= 0) {
-    //             this.setState({movePrev: false});
-    //         }
-    //     }
-    // }
-
-    nextSlideHandler = (event) => {
+    nextSlideHandler = (e) => {
         let newIndex = this.state.currentImageIndex;
-        let arrLength = this.state.images.length;
-        if (event.currentTarget.dataset.direction === 'next') {
-            // this._nextSlide();
-            if (newIndex < arrLength - 1) {
-                this.state.currentImageIndex = this.state.currentImageIndex + 1;
+
+
+        if (e.currentTarget.dataset.direction === 'next') {
+            if (newIndex < this.state.images.length - 1) {
+                newIndex = this.state.currentImageIndex + 1;
                 this.setState({movePrev: true});
-            } else {
-                if (newIndex < arrLength) {
-                    this.setState({moveNext: false});
-                }
             }
+            if (newIndex === this.state.images.length -1) {
+                // this.state.moveNext = false;
+                this.setState({moveNext: false});
+            }
+
         } else {
-            // this._prevSlide();
             if (newIndex > 0) {
-                this.state.currentImageIndex = this.state.currentImageIndex - 1;
+                newIndex = this.state.currentImageIndex - 1;
                 this.setState({moveNext: true});
-            } else {
-                if (this.state.currentImageIndex <= 0) {
-                    this.setState({movePrev: false});
-                }
+            }
+            if (newIndex === 0) {
+                this.setState({movePrev: false});
             }
         }
-        this.setState({currentImageIndex: this.state.currentImageIndex});
+        this.setState({currentImageIndex: newIndex});
     }
 
     render() {

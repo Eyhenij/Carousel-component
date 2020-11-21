@@ -11,7 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d32c4022-b57e-458b-a516-915939cc4d9a" name="Default Changelist" comment="21.11.2020-001 build by npm">
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.658e0a32.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.658e0a32.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.658e0a32.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/3.c4dc0b40.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/3.c4dc0b40.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.17718422.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.17718422.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.1bf19bc7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.1bf19bc7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/carouselContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carouselContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../IT-kamasutra/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IT-kamasutra/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +93,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -88,9 +113,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.predeploy" />
+        <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +140,9 @@
       <option name="presentableId" value="Default" />
       <updated>1605862186010</updated>
       <workItem from="1605862187243" duration="26055000" />
-      <workItem from="1605940025425" duration="3702000" />
+      <workItem from="1605940025425" duration="13107000" />
+      <workItem from="1605957661055" duration="2121000" />
+      <workItem from="1605960241577" duration="547000" />
     </task>
     <task id="LOCAL-00001" summary="20.11.2020-001 start Project">
       <created>1605863969387</created>
@@ -162,22 +201,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605867152465" />
-    <state width="1893" height="267" key="GridCell.Tab.0.bottom" timestamp="1605942398269">
+    <state width="1893" height="267" key="GridCell.Tab.0.bottom" timestamp="1605960220968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605942398269" />
-    <state width="1893" height="267" key="GridCell.Tab.0.center" timestamp="1605942398268">
+    <state width="1893" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605960220968" />
+    <state width="1893" height="267" key="GridCell.Tab.0.center" timestamp="1605960220968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605942398268" />
-    <state width="1893" height="267" key="GridCell.Tab.0.left" timestamp="1605942398268">
+    <state width="1893" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605960220968" />
+    <state width="1893" height="267" key="GridCell.Tab.0.left" timestamp="1605960220968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605942398268" />
-    <state width="1893" height="267" key="GridCell.Tab.0.right" timestamp="1605942398268">
+    <state width="1893" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605960220968" />
+    <state width="1893" height="267" key="GridCell.Tab.0.right" timestamp="1605960220968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605942398268" />
+    <state width="1893" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605960220968" />
     <state x="754" y="151" key="RollbackChangesDialog" timestamp="1605867101495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
