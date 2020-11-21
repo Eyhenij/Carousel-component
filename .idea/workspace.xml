@@ -11,6 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d32c4022-b57e-458b-a516-915939cc4d9a" name="Default Changelist" comment="20.11.2020-001 start Project">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/carousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carousel.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../IT-kamasutra/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IT-kamasutra/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +23,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kY0OW4l1M4uphFQdy3FAkuBuyi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -34,6 +45,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -42,6 +55,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\MyProjects\Carousel\carousel-task\src\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\MyProjects\Carousel\carousel-task\public" />
       <recent name="F:\MyProjects\Carousel\carousel-task" />
@@ -70,7 +86,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605862186010</updated>
-      <workItem from="1605862187243" duration="4952000" />
+      <workItem from="1605862187243" duration="26055000" />
+      <workItem from="1605940025425" duration="1707000" />
     </task>
     <task id="LOCAL-00001" summary="20.11.2020-001 start Project">
       <created>1605863969387</created>
@@ -102,6 +119,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="20.11.2020-001 start Project" />
@@ -112,6 +130,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605867152465" />
+    <state width="1893" height="267" key="GridCell.Tab.0.bottom" timestamp="1605901349490">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605901349490" />
+    <state width="1893" height="267" key="GridCell.Tab.0.center" timestamp="1605901349490">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605901349490" />
+    <state width="1893" height="267" key="GridCell.Tab.0.left" timestamp="1605901349490">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605901349490" />
+    <state width="1893" height="267" key="GridCell.Tab.0.right" timestamp="1605901349490">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605901349490" />
     <state x="754" y="151" key="RollbackChangesDialog" timestamp="1605867101495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
