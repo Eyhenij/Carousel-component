@@ -1,0 +1,55 @@
+.page {
+    position: relative;
+    /*padding-top: 10px;*/
+    /*display: flex;*/
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-size: 24px;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .page {
+        background-color: white;
+        color: #282c34;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+.page__carousel {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page__button {
+    width: 75px;
+    height: 40px;
+    margin: 20px;
+}
+
+.carousel__container {
+    /*background-color: cadetblue;*/
+    width: 400px;
+    height: 600px;
+    border-radius: 5px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px -1px 5px grey;
+}
+
+.carousel__image {
+    display: flex;
+    margin: auto;
+    max-width: 390px;
+}

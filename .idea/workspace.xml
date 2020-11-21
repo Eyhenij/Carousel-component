@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d32c4022-b57e-458b-a516-915939cc4d9a" name="Default Changelist" comment="21.11.2020-001 some refactoring">
+    <list default="true" id="d32c4022-b57e-458b-a516-915939cc4d9a" name="Default Changelist" comment="21.11.2020-001 build by npm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../IT-kamasutra/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IT-kamasutra/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -103,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605862186010</updated>
       <workItem from="1605862187243" duration="26055000" />
-      <workItem from="1605940025425" duration="2450000" />
+      <workItem from="1605940025425" duration="3702000" />
     </task>
     <task id="LOCAL-00001" summary="20.11.2020-001 start Project">
       <created>1605863969387</created>
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605941891650</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="21.11.2020-001 build by npm">
+      <created>1605942521698</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605942521698</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,36 +154,37 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="20.11.2020-001 start Project" />
     <MESSAGE value="21.11.2020-001 some refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="21.11.2020-001 some refactoring" />
+    <MESSAGE value="21.11.2020-001 build by npm" />
+    <option name="LAST_COMMIT_MESSAGE" value="21.11.2020-001 build by npm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1605867152465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605867152465" />
-    <state width="1893" height="267" key="GridCell.Tab.0.bottom" timestamp="1605901349490">
+    <state width="1893" height="267" key="GridCell.Tab.0.bottom" timestamp="1605942398269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605901349490" />
-    <state width="1893" height="267" key="GridCell.Tab.0.center" timestamp="1605901349490">
+    <state width="1893" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605942398269" />
+    <state width="1893" height="267" key="GridCell.Tab.0.center" timestamp="1605942398268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605901349490" />
-    <state width="1893" height="267" key="GridCell.Tab.0.left" timestamp="1605901349490">
+    <state width="1893" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605942398268" />
+    <state width="1893" height="267" key="GridCell.Tab.0.left" timestamp="1605942398268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605901349490" />
-    <state width="1893" height="267" key="GridCell.Tab.0.right" timestamp="1605901349490">
+    <state width="1893" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605942398268" />
+    <state width="1893" height="267" key="GridCell.Tab.0.right" timestamp="1605942398268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605901349490" />
+    <state width="1893" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605942398268" />
     <state x="754" y="151" key="RollbackChangesDialog" timestamp="1605867101495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="754" y="151" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605867101495" />
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1605941906618">
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1605942531098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605941906618" />
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605942531098" />
   </component>
 </project>
