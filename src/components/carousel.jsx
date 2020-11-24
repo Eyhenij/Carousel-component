@@ -5,7 +5,7 @@ import s from './carousel.module.css';
 const Carousel = (props) => {
     return (
         <div className={s.page}>
-            <h1>Carousel</h1>
+            <h1>Carousel app</h1>
             <span className={s.page__carousel}>
                 <div>
                     <button className={s.page__button}
@@ -19,7 +19,7 @@ const Carousel = (props) => {
                  <div className={s.carousel__container}>
                     <img className={s.carousel__image}
                          src={props.state.images[props.state.currentImageIndex]}
-                         alt={'image'}
+                         alt={'someImage'}
                     />
                 </div>
                 {/*<div>*/}
