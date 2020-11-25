@@ -17,6 +17,8 @@
       <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/carousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carousel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/carousel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carousel.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/carouselContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carouselContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../IT-kamasutra/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IT-kamasutra/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +140,8 @@
       <workItem from="1606038498049" duration="235000" />
       <workItem from="1606051916388" duration="185000" />
       <workItem from="1606053180294" duration="215000" />
-      <workItem from="1606210373326" duration="1066000" />
+      <workItem from="1606210373326" duration="7563000" />
+      <workItem from="1606287046230" duration="6277000" />
     </task>
     <task id="LOCAL-00001" summary="20.11.2020-001 start Project">
       <created>1605863969387</created>
@@ -168,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605942521698</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="24.11.2020-001">
+      <created>1606212668369</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606212668369</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,9 +232,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="754" y="151" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605867101495" />
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1605942531098">
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1606212698902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605942531098" />
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606212698902" />
   </component>
 </project>

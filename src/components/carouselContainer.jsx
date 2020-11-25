@@ -23,7 +23,6 @@ class CarouselContainer extends React.Component {
                 image6
             ],
             currentImageIndex: 0,
-            isCycleMode: false,
             movePrev: false,
             moveNext: true
         };
@@ -32,17 +31,21 @@ class CarouselContainer extends React.Component {
     }
 
     nextSlideHandler = (e) => {
-        let newIndex = this.state.currentImageIndex;
 
+        let currentIndex = this.state.currentImageIndex;
+        let newIndex = currentIndex;
 
         if (e.currentTarget.dataset.direction === 'next') {
             if (newIndex < this.state.images.length - 1) {
                 newIndex = this.state.currentImageIndex + 1;
                 this.setState({movePrev: true});
             }
-            if (newIndex === this.state.images.length -1) {
-                // this.state.moveNext = false;
-                this.setState({moveNext: false});
+            // if (newIndex === this.state.images.length -1) {
+            //     // this.state.moveNext = false;
+            //     this.setState({moveNext: false});
+            // }
+            if (newIndex > currentIndex) {
+                currentIndex = 0
             }
 
         } else {
